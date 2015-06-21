@@ -1,0 +1,86 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 100px;
+}
+.col-md-2 {
+	text-align: center;
+	color: #ffffff;
+	padding-top: 25px;
+}
+.col-md-1 {
+	text-align: center;
+	color: #522037;
+	padding-top: 45px;
+}
+.navigation {
+	width: 100%;
+	background-color: #522037;
+	height: 35px;
+	position: fixed;
+	z-index: 10;
+}
+.nav-list {
+	margin: auto;
+	display: block;
+	padding: 5px;
+}
+.nav-list ul{
+	padding: 0px;
+	text-align: center;
+}
+.nav-list li {
+	display: inline;
+	list-style-type: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 0px 40px 0px 40px;
+}
+.introduction {
+	background: rgba(0,0,0, 0.1);
+	height: 550px;
+	background-position: center;
+}
+.logo {
+	margin: auto;
+	display: block;
+	padding-top: 120px;
+}
+.intro-btn {
+	margin: 74px auto;
+	display: block;
+	text-align: center;
+}
+.rbtn {
+	background: #522037;
+	color: #fff;
+	text-transform: uppercase;
+	width: 150px;
+	margin-right: 50px;
+}
+.sbtn {
+	background: #522037;
+	color: #fff;
+	text-transform: uppercase;
+	width: 150px;	
+}
+.info {
+	height: 460px;
+	z-index: 2;
+	background: #522037;
+}
+.timeline {
+	height: 250px;
+	background: rgba(0,0,0, 0.1);
+}
+.faq-1{
+	height: 250px;
+	background: #552037;
+}
+.faq-2{
+	height: 270px;
+	background: #552037;
+}
+.contact {
+	height: 300px;
+	background: rgba(0,0,0,0.1);
+}
