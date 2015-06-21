@@ -3,7 +3,7 @@ body {
 	font-size: 100px;
 }
 h4 a {
-	color: #522037;
+	color: #fff;
 	text-decoration: none;
 }
 h4 a:hover{
@@ -90,8 +90,9 @@ h4 a:hover{
 }
 .contact {
 	padding-top: 25px;
+	color: white;
 	height: 300px;
-	background: rgba(255,255,255,0.4);
+	background: rgba(255,255,255,0.2);
 }
 footer {
 	height: 35px;
