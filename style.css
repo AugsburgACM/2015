@@ -3,7 +3,7 @@ body {
 	font-size: 100px;
 }
 h4 a {
-	color: #fff;
+	color: #522037;
 	text-decoration: none;
 }
 h4 a:hover{
@@ -44,7 +44,7 @@ h4 a:hover{
 	padding: 0px 40px 0px 40px;
 }
 .introduction {
-	background: rgba(255,255,255, 0.6);
+	background: rgba(0,0,0, 0.2);
 	height: 550px;
 	background-position: center;
 }
@@ -78,7 +78,7 @@ h4 a:hover{
 }
 .timeline {
 	height: 250px;
-	background: rgba(255,255,255, 0.7);
+	background: rgba(0,0,0, 0.2);
 }
 .faq-1{
 	height: 250px;
@@ -90,9 +90,8 @@ h4 a:hover{
 }
 .contact {
 	padding-top: 25px;
-	color: white;
 	height: 300px;
-	background: rgba(255,255,255,0.2);
+	background: rgba(0,0,0,0.2);
 }
 footer {
 	height: 35px;
