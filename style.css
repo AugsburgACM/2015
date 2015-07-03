@@ -2,13 +2,17 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 100px;
 }
+li a {
+	color: #47C796;
+}
 h4 a {
-	color: #522037;
+
 	text-decoration: none;
+	color: grey;
 }
 h4 a:hover{
 	text-decoration: none;
-	color: #aaa;
+	color: #47C796;
 }
 	.col-md-2 {
 		text-align: center;
@@ -17,23 +21,28 @@ h4 a:hover{
 	}
 	.col-md-1 {
 		text-align: center;
-		color: #522037;
+		color: #47C796;
 		padding-top: 45px;
 	}
 	.navigation {
 		width: 100%;
-		background-color: #522037;
+		background-color: whitesmoke;
 		height: 35px;
 		position: fixed;
 		z-index: 10;
+		box-shadow: 2px 2px 10px grey; 
 	}
 	.nav-list {
 		display: none;
 	}
-	.introduction {
-		background: rgba(0,0,0, 0.2);
+	#introduction {
+		background: rgba(225,225,225, 0.1);
 		height: 300px;
 		background-position: center;
+	}
+	#introduction h3 {
+		color: #47C796;
+		text-align: center;
 	}
 	.logo {
 		width: 300px;
@@ -46,28 +55,52 @@ h4 a:hover{
 		display: block;
 		text-align: center;
 	}
-	.rbtn {
-		background: #522037;
-		color: #fff;
+	.btn.rbtn {
+		background: transparent;
+		color: #47C796;
 		text-transform: uppercase;
 		width: 100px;
 		margin-right: 50px;
+		border: 2px solid #47C796;
+		font-weight: 500;
+		border-radius: 0px;
 	}
-	.sbtn {
-		background: #522037;
+	.btn.rbtn:hover, .btn.sbtn:hover {
+		background: #47C796;
 		color: #fff;
+	}
+	.btn.sbtn {
+		background: transparent;
+		color: #47C796;
 		text-transform: uppercase;
-		width: 100px;	
+		width: 100px;
+		border: 2px solid #47C796;
+		font-weight: 500;
+		border-radius: 0px;
 	}
 	.info {
-		background: #522037;
+		background: #47C796;
+		padding: 35px 0;
 	}
-	.faq-1{
-		background: #552037;
+	#faq-1{
+		background: #47C796;
 	}
 	.faq-2{
-		background: #552037;
+		background: #47C796;
 	}
+		#contact {
+		padding-top: 25px;
+		color: grey;
+		background: rgba(225,225,225,0.1);
+	}
+	footer {
+	height: 35px;
+	color: #fff;
+	background-color: #47C796;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 8px;
+}
 @media (min-width: 992px) {
 
 }
@@ -87,11 +120,11 @@ h4 a:hover{
 		display: inline;
 		list-style-type: none;
 		text-transform: uppercase;
-		color: #ffffff;
+		color: grey;
 		padding: 0px 40px 0px 40px;
 	}
-	.introduction {
-		background: rgba(0,0,0, 0.2);
+	#introduction {
+		background: rgba(225,225,225, 0.1);
 		height: 550px;
 		background-position: center;
 	}
@@ -102,30 +135,24 @@ h4 a:hover{
 		width: 500px;
 	}
 	.info {
-		height: 460px;
+		height: 350px;
 		z-index: 2;
 	}
-	.timeline {
+	#schedule {
 		height: 250px;
-		background: rgba(0,0,0, 0.2);
+		background: rgba(225,225,225, 0.1);
 	}
-	.faq-1{
+	#faq-1{
 		height: 250px;
 	}
 	.faq-2{
 		height: 270px;
 	}
-	.contact {
-		padding-top: 25px;
-		height: 300px;
-		background: rgba(0,0,0,0.2);
+	.intro-btn {
+		margin: 50px auto;
 	}
-}
-footer {
-	height: 35px;
-	color: #fff;
-	background-color: #522037;
-	text-align: center;
-	font-size: 12px;
-	padding-top: 8px;
+	#contact {
+		height: 350px;
+	}
+
 }
