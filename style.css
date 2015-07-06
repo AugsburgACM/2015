@@ -4,6 +4,11 @@ body {
 }
 li a {
 	color: #47C796;
+	text-decoration: none;
+}
+li a:hover {
+	text-decoration: none;
+	color: grey;
 }
 h4 a {
 
@@ -14,12 +19,12 @@ h4 a:hover{
 	text-decoration: none;
 	color: #47C796;
 }
-.col-sm-2 {
+.col-md-2 {
 	text-align: center;
 	color: #ffffff;
 	padding: 0 0 25px 0;
 }
-.col-sm-1 {
+.col-md-1 {
 	text-align: center;
 	color: #47C796;
 	padding-top: 45px;
@@ -61,6 +66,12 @@ h4 a:hover{
 	display: block;
 	text-align: center;
 }
+.btn a{
+	color: #47C796;
+}
+.btn a:hover {
+	color: white;
+}
 .btn.rbtn {
 	background: transparent;
 	color: #47C796;
@@ -71,7 +82,7 @@ h4 a:hover{
 	font-weight: 500;
 	border-radius: 0px;
 }
-.btn.rbtn:hover, .btn.sbtn:hover {
+.btn.rbtn:hover, .btn.sbtn:hover  {
 	background: #47C796;
 	color: #fff;
 }
@@ -102,7 +113,11 @@ h4 a:hover{
 	background-color: #47C796;
 	color: #fff;
 	text-align: center;
-	padding: 20px;
+	padding: 0 0 20px 0;
+	margin-top: -20px;
+}
+.contactUs {
+	display: none;
 }
 #contact {
 	padding-top: 25px;
@@ -152,9 +167,27 @@ padding-top: 8px;
 	.faq-2 {
 		background-color: #47C796;
 	}
+
 }
 @media (min-width: 992px) {
-
+	.mobile {
+		display: none;
+	}
+	.row {
+		padding-top: 15px;
+	}
+	#schedule {
+	display: block;
+}
+#faq-1{
+	display: block;
+}
+.faq-2{
+	display: block;
+}
+.contactUs {
+	display: block;
+}
 }
 
 @media (min-width: 1200px) {
@@ -172,7 +205,6 @@ padding-top: 8px;
 		width: 500px;
 	}
 	.info {
-		height: 350px;
 		z-index: 2;
 	}
 	#schedule {
