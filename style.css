@@ -3,7 +3,7 @@ body {
 	font-size: 100px;
 }
 li a {
-	color: #D38E58;
+	color: #fff;
 	text-decoration: none;
 }
 li a:hover {
@@ -26,32 +26,32 @@ h4 a:hover{
 }
 .col-md-1 {
 	text-align: center;
-	color: #D38E58;
+	color: #fff;
 	padding-top: 45px;
 }
 .navigation {
 	width: 100%;
-	background-color: whitesmoke;
+	background-color: #111;
 	height: 35px;
 	position: fixed;
 	z-index: 10;
-	box-shadow: 2px 2px 10px grey; 
+	box-shadow: 2px 2px 10px black; 
 }
 .nav-list {
 	display: none;
 }
 #introduction {
-	background: rgba(225,225,225, 0.1);
+	background: rgba(0,0,0, 0.5);
 	height: 350px;
 	background-position: center;
 }
 #introduction h3 {
-	color: #D38E58;
+	color: #fff;
 	text-align: center;
 }
 .nav-menu {
 	text-align: center;
-	color: #D38E58;
+	color: #fff;
 	display: block;
 	padding-top: 7px;
 }
@@ -67,41 +67,46 @@ h4 a:hover{
 	text-align: center;
 }
 .btn a{
-	color: #D38E58;
+	color: #fff;
 }
 .btn a:hover {
 	color: white;
 }
 .btn.rbtn {
 	background: transparent;
-	color: #D38E58;
+	color: #fff;
 	text-transform: uppercase;
 	width: 100px;
 	margin-right: 50px;
-	border: 2px solid #D38E58;
+	border: 2px solid #fff;
 	font-weight: 500;
 	border-radius: 0px;
 }
 .btn.rbtn:hover, .btn.sbtn:hover  {
-	background: #D38E58;
+	background: #fff;
 	color: #fff;
 }
 .btn.sbtn {
 	background: transparent;
-	color: #D38E58;
+	color: #fff;
 	text-transform: uppercase;
 	width: 100px;
-	border: 2px solid #D38E58;
+	border: 2px solid #fff;
 	font-weight: 500;
 	border-radius: 0px;
 }
 .info {
-	background: #D38E58;
+	background: #111;
 	padding: 0;
 }
-
+.box {
+	border: 2px solid #fff;
+	padding: 10px;
+	height: 175px;
+}
 #schedule {
 	display: none;
+	background: #111;
 }
 #faq-1{
 	display: none;
@@ -110,8 +115,8 @@ h4 a:hover{
 	display: none;
 }
 .mobile {
-	background-color: #D38E58;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	text-align: center;
 	padding: 0 0 20px 0;
 	margin-top: -20px;
@@ -126,8 +131,8 @@ h4 a:hover{
 }
 footer {
 height: 35px;
-color: #fff;
-background-color: #D38E58;
+color: #111;
+background-color: #fff;
 text-align: center;
 font-size: 12px;
 padding-top: 8px;
@@ -162,10 +167,10 @@ padding-top: 8px;
 		display: none;
 	}
 	#faq-1 {
-		background-color: #D38E58;
+		background-color: #111;
 	}
 	.faq-2 {
-		background-color: #D38E58;
+		background-color: #111;
 	}
 
 }
@@ -194,7 +199,6 @@ padding-top: 8px;
 
 
 	#introduction {
-		background: rgba(225,225,225, 0.1);
 		height: 550px;
 		background-position: center;
 	}
@@ -209,7 +213,6 @@ padding-top: 8px;
 	}
 	#schedule {
 		height: 250px;
-		background: rgba(225,225,225, 0.1);
 	}
 	.intro-btn {
 		margin: 50px auto;
